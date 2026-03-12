@@ -14,7 +14,7 @@
 - **設計稿拆解與前端實作**  
   透過 Figma 解析版面與元件結構，完成前端切版並部署網站。
 
-## 💻 技術工具
+## 技術工具
 **Frontend**
 - HTML5
 - CSS3
@@ -26,5 +26,5 @@
 - Figma（設計稿拆解）
 - GitHub Pages（專案部署）
 
-## 🚀 展示
- Demo: https://melodyliuu.github.io/blog_website/
+##  展示
+ https://melodyliuu.github.io/blog_website/
