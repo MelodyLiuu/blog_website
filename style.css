@@ -231,6 +231,9 @@ a{
 
 }
 
+.content{
+	margin:0 12px 0 12px;
+}
 
 .search{
 	max-width: 1296px;
@@ -278,12 +281,21 @@ a{
 }
 
 .article-list{
-	display:flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	gap:80px 24px;
 }
+@media (max-width: 992px) {
+  .article-list {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    width: 416px;
+    margin: 0 auto;
+  }
+}
 .card{
-	width:416px;
+	/* width:416px; removed for grid layout */
 }
 
 .card .text {
@@ -404,4 +416,9 @@ a{
     align-items: center;
     text-align: center;
   }
+}
+
+.email :hover{
+	color:#0027D5;
+	
 }
